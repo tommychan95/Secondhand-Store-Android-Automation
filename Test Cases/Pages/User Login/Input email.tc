@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7fc0c77-5ad2-4254-b313-c383c5606494</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cf2218a-26c6-41d9-b2b9-714321d058a4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0cf2218a-26c6-41d9-b2b9-714321d058a4</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
