@@ -21,13 +21,15 @@ Mobile.callTestCase(findTestCase('Pages/User Login/Navigate to login'), [:], Fai
 
 Mobile.callTestCase(findTestCase('Pages/User Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : 'irmapujiandrianis@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/User Login/Input email'), [('email') : 'asdfg@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : 'Admin123'], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Pages/User Login/Input password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/User Login/Tap button login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Page_User Login/account_user_name'), 0)
+Mobile.verifyElementVisible(findTestObject('Page_User Login/error_password_empty'), 0)
 
+errorText = Mobile.getText(findTestObject('Page_User Login/error_password_empty'), 0)
 
+Mobile.verifyMatch(errorText, 'Password tidak boleh kosong', false)
 
