@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>change phone number</name>
+   <name>change email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>edc03842-1c3d-478b-b2b3-9b9d978d17af</testCaseGuid>
+   <testCaseGuid>ed649b55-aa2c-432c-97df-151bded3baa1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</variableId>
+      <variableId>5e915e94-61dd-4f71-9eaa-de6f14f59427</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'12345'</defaultValue>
+      <defaultValue>'binarqae1@gmail.com'</defaultValue>
       <description></description>
-      <id>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</id>
+      <id>5e915e94-61dd-4f71-9eaa-de6f14f59427</id>
       <masked>false</masked>
-      <name>phone</name>
+      <name>email</name>
    </variable>
 </TestCaseEntity>

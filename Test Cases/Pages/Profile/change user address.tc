@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>change phone number</name>
+   <name>change user address</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>edc03842-1c3d-478b-b2b3-9b9d978d17af</testCaseGuid>
+   <testCaseGuid>b0765e54-0484-44a8-bad2-2af6c07b2333</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</variableId>
+      <variableId>76469bff-95d0-4d52-bd75-820dfc842660</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'12345'</defaultValue>
+      <defaultValue>'Tebet'</defaultValue>
       <description></description>
-      <id>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</id>
+      <id>76469bff-95d0-4d52-bd75-820dfc842660</id>
       <masked>false</masked>
-      <name>phone</name>
+      <name>address</name>
    </variable>
 </TestCaseEntity>

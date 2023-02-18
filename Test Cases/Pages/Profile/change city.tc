@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>change phone number</name>
+   <name>change city</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>edc03842-1c3d-478b-b2b3-9b9d978d17af</testCaseGuid>
+   <testCaseGuid>a6889d59-9bf1-4c09-8f1d-c79d23c357e6</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</variableId>
+      <variableId>9854aa91-7e27-4a22-b72d-39c670f1461d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'12345'</defaultValue>
+      <defaultValue>'Jakarta'</defaultValue>
       <description></description>
-      <id>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</id>
+      <id>9854aa91-7e27-4a22-b72d-39c670f1461d</id>
       <masked>false</masked>
-      <name>phone</name>
+      <name>city</name>
    </variable>
 </TestCaseEntity>

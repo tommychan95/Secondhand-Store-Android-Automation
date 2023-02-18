@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Page_Profile/button_change_phone'), 0)
+Mobile.tap(findTestObject('Page_Profile/button_change_password'), 0)
 
-Mobile.clearText(findTestObject('Page_Profile/input_phone_number'), 0)
+Mobile.checkElement(findTestObject('Page_Profile/input_edit_old_password'), 0)
 
-Mobile.setText(findTestObject('Page_Profile/input_phone_number'), phone, 0)
+Mobile.checkElement(findTestObject('Page_Profile/input_edit_new_password'), 0)
+
+Mobile.checkElement(findTestObject('Page_Profile/input_edit_confim_new_password'), 0)
+
+Mobile.setText(findTestObject('Page_Profile/input_edit_old_password'), old_password, 0)
+
+Mobile.setText(findTestObject('Page_Profile/input_edit_new_password'), password, 0)
+
+Mobile.setText(findTestObject('Page_Profile/input_edit_confim_new_password'), confirm_password, 0)
 

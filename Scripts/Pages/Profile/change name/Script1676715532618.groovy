@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Page_Profile/button_change_name'), 0)
 
-Mobile.setText(findTestObject('Page_Profile/input_edit_name'), '"name"', 0)
+Mobile.checkElement(findTestObject('Page_Profile/input_edit_name'), 10)
 
-Mobile.tap(findTestObject('Page_Profile/button_save'), 0)
+Mobile.clearText(findTestObject('Page_Profile/input_edit_name'), 0)
+
+Mobile.setText(findTestObject('Page_Profile/input_edit_name'), name, 0)
 
