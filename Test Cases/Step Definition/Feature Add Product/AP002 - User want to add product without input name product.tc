@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AP002 - User want to add product without input name product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c88c8f4a-9c39-40c1-8966-8a6f8c79ccee</testCaseGuid>
+</TestCaseEntity>
