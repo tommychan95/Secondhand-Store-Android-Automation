@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>change user address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0765e54-0484-44a8-bad2-2af6c07b2333</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76469bff-95d0-4d52-bd75-820dfc842660</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76469bff-95d0-4d52-bd75-820dfc842660</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+</TestCaseEntity>

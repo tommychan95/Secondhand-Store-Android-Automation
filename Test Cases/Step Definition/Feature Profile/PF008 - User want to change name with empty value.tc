@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF008 - User want to change name with empty value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c93c7a05-299d-42ed-b850-1a1facd65e87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b859a27a-4160-4d43-9ffa-dcda3db41115</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wajib diisi.'</defaultValue>
+      <description></description>
+      <id>b859a27a-4160-4d43-9ffa-dcda3db41115</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+</TestCaseEntity>

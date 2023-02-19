@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Feature Profile</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4d2119b6-6d13-4878-a50f-8d9cea2389b9</testSuiteGuid>
+   <testCaseLink>
+      <guid>33e4d990-a28d-4363-a788-cd6ca7284e22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF001 - User want to change name</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b0ceaa7-dd4b-4bf5-88ee-78241fa9ee89</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db927dee-4e94-4411-8f49-c6aeaa49a679</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF002 - User want to change phone number</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aba1088d-188d-485a-acf2-640aeb23d8ab</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1f2da5d3-3448-4089-b235-f6b68a90080b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF003 - User want to change city</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>187876db-a430-4f09-b373-de3284047786</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5220b17-a516-4910-a5d9-384cc158ff8d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF004 - User want to change address</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>decdc9ed-8b68-4eca-8ac9-0314817ce86a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43196d32-aae7-4491-b5f9-683b95202227</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF005 - User want to change email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>643efee0-3e2b-4a18-826b-007d4cb19663</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21c7d434-f55d-47fd-8aa5-b70599782274</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF006 - User want to change password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a22fabc8-78e8-48cf-846a-a9920751d7d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF007 - User want to change profile picture</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8db3782b-3d78-4675-8904-07088e4a2f14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF008 - User want to change name with empty value</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b859a27a-4160-4d43-9ffa-dcda3db41115</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f31db843-bf73-46bd-9deb-ec8ed1e6e94f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF009 - User want to change phone number with empty value</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be4bffe5-6120-46e5-bf10-b6752ee9a5c9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d013409b-6ec5-4d4a-9fb3-e0fbf29e5e4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF010 - User want to change city with empty value</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbdd94d4-6df0-480b-be99-9dda7ded5e3e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e87ba914-b37f-436b-96f1-b98914791a27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF011 - User want to change address with empty value</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d55edae3-04dc-414f-a05b-8a01f8f94eec</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1dd8dfd-c7d6-4c79-9eee-158a97521a55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF012 - User want to change email with empty value</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f6bff660-5294-4a85-ae58-cab01271ff31</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>54e4198f-cf4a-44d7-b48f-cd2b8a4abbb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF013 - User want to change password with empty value</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ec889d9-3436-4ac2-83bd-1c792fa3bc87</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c80ef950-a9bf-4319-9a1b-a3b8841d2648</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature Profile/PF014 - User want to change password with incorrect new password and confirmation password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57d45833-e1fe-460f-838b-f981a30adf63</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

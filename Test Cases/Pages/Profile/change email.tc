@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>change email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed649b55-aa2c-432c-97df-151bded3baa1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e915e94-61dd-4f71-9eaa-de6f14f59427</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e915e94-61dd-4f71-9eaa-de6f14f59427</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

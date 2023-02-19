@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF004 - User want to change address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf3fe188-2b77-49e1-8d0a-7a022257bfad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>decdc9ed-8b68-4eca-8ac9-0314817ce86a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tebet'</defaultValue>
+      <description></description>
+      <id>decdc9ed-8b68-4eca-8ac9-0314817ce86a</id>
+      <masked>false</masked>
+      <name>updated_address</name>
+   </variable>
+</TestCaseEntity>

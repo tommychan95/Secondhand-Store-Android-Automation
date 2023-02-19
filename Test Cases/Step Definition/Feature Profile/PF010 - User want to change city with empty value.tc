@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF010 - User want to change city with empty value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7977388e-a52c-4cd7-9346-a8d53cbffd82</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbdd94d4-6df0-480b-be99-9dda7ded5e3e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wajib diisi.'</defaultValue>
+      <description></description>
+      <id>cbdd94d4-6df0-480b-be99-9dda7ded5e3e</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+</TestCaseEntity>

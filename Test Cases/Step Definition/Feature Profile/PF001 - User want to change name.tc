@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF001 - User want to change name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e9ee8a5-c0ba-4253-ac94-5d0b20f89889</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b0ceaa7-dd4b-4bf5-88ee-78241fa9ee89</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ahmad'</defaultValue>
+      <description></description>
+      <id>1b0ceaa7-dd4b-4bf5-88ee-78241fa9ee89</id>
+      <masked>false</masked>
+      <name>updated_name</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF009 - User want to change phone number with empty value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d04480f3-59e4-4eff-af6c-276e0cdf8373</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be4bffe5-6120-46e5-bf10-b6752ee9a5c9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wajib diisi.'</defaultValue>
+      <description></description>
+      <id>be4bffe5-6120-46e5-bf10-b6752ee9a5c9</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+</TestCaseEntity>

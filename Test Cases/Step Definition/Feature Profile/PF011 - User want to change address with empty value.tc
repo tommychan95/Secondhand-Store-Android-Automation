@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF011 - User want to change address with empty value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc7ae36b-0cac-4a16-93f4-9de7e856a5a9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d55edae3-04dc-414f-a05b-8a01f8f94eec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wajib diisi.'</defaultValue>
+      <description></description>
+      <id>d55edae3-04dc-414f-a05b-8a01f8f94eec</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+</TestCaseEntity>

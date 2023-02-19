@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF003 - User want to change city</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a18a80b9-3581-4696-ba37-5a88b3f5174c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>187876db-a430-4f09-b373-de3284047786</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta'</defaultValue>
+      <description></description>
+      <id>187876db-a430-4f09-b373-de3284047786</id>
+      <masked>false</masked>
+      <name>updated_city</name>
+   </variable>
+</TestCaseEntity>

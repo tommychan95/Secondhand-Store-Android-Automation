@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF002 - User want to change phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f3b0114-05b7-4f0c-96b5-8f0017feadb0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aba1088d-188d-485a-acf2-640aeb23d8ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>aba1088d-188d-485a-acf2-640aeb23d8ab</id>
+      <masked>false</masked>
+      <name>updated_phone</name>
+   </variable>
+</TestCaseEntity>

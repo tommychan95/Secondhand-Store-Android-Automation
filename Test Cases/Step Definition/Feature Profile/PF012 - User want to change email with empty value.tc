@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF012 - User want to change email with empty value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3344f8c-92fd-47a2-b2d0-7c19ac078cd3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6bff660-5294-4a85-ae58-cab01271ff31</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wajib diisi.'</defaultValue>
+      <description></description>
+      <id>f6bff660-5294-4a85-ae58-cab01271ff31</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+</TestCaseEntity>

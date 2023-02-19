@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PF005 - User want to change email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>faa08c1a-1d97-4484-acc9-75f5a45b339b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>643efee0-3e2b-4a18-826b-007d4cb19663</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'binarqae1@gmail.com'</defaultValue>
+      <description>email yang sudah di update</description>
+      <id>643efee0-3e2b-4a18-826b-007d4cb19663</id>
+      <masked>false</masked>
+      <name>updated_email</name>
+   </variable>
+</TestCaseEntity>

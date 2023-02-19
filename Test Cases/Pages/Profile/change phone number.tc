@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>change phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edc03842-1c3d-478b-b2b3-9b9d978d17af</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+</TestCaseEntity>
