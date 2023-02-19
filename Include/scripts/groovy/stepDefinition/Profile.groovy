@@ -52,6 +52,11 @@ class Profile {
 		Mobile.callTestCase(findTestCase('Pages/Profile/navigate to profile'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@Given("User in profile page")
+	public void user_in_profile() {
+		Mobile.callTestCase(findTestCase('Pages/Profile/verify content'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
 
 	@When("User tap change name and input {string}")
 	public void user_input_name(String name) {
@@ -95,14 +100,12 @@ class Profile {
 	}
 	
 	@Then("User show success alert")
-	public void user_show_success_alert(String string) {
+	public void user_show_success_alert() {
 		Mobile.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
-		Mobile.closeApplication()
 	}
 
 	@Then("Warning text {string} will be shown")
 	public void text_warning_akan_muncul(String string) {
 		Mobile.verifyMatch(string, string, false)
-		Mobile.closeApplication()
 	}
 }
