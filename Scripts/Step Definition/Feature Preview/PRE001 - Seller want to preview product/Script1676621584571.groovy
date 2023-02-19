@@ -37,11 +37,13 @@ Mobile.callTestCase(findTestCase('Pages/Preview/Input Location'), [:], FailureHa
 
 Mobile.callTestCase(findTestCase('Pages/Preview/Input Description'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.scrollToText('Nama Produk', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.callTestCase(findTestCase('Pages/Preview/Upload Product Photo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Preview/Click Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Page_Preview/img_samsunggalaxy'), 1)
+Mobile.verifyElementVisible(findTestObject('Page_Preview/img_samsunggalaxy'), 10)
 
 Mobile.callTestCase(findTestCase('Pages/Preview/Click Back Button 1'), [:], FailureHandling.STOP_ON_FAILURE)
 

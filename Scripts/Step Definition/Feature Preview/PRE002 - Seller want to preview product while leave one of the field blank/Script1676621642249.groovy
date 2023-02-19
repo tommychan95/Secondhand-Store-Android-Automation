@@ -33,9 +33,11 @@ Mobile.callTestCase(findTestCase('Pages/Preview/Input Location'), [:], FailureHa
 
 Mobile.callTestCase(findTestCase('Pages/Preview/Input Description'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.scrollToText('Harga Produk', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.callTestCase(findTestCase('Pages/Preview/Upload Product Photo'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('Pages/Preview/Click Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Page_Preview/txtview_Nama produk tidak boleh kosong'), 1)
+Mobile.verifyElementVisible(findTestObject('Page_Preview/txtview_Nama produk tidak boleh kosong'), 10)
 
