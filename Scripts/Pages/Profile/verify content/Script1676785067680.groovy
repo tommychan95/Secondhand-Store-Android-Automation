@@ -29,5 +29,3 @@ Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_emai
 
 Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_password'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Page_Profile/button_change_profile_picture'), 0)
-

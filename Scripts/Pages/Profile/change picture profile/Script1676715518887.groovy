@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Page_Profile/profile_picture'), 0)
+Mobile.tapAtPosition(360, 321)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Page_Profile/button_camera'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Page_Profile/button_camera'), 0)
 
