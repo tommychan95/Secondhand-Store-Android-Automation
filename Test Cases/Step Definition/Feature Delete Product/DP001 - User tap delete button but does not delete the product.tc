@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DP001 - User tap delete button but does not delete the product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8bf404a-efce-484e-9769-211600a04370</testCaseGuid>
+</TestCaseEntity>
