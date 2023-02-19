@@ -30,5 +30,5 @@ WebUI.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Jakarta = Mobile.getText(findTestObject('Page_Profile/button_text_change_city'), 0)
+updated_city = Mobile.getText(findTestObject('Page_Profile/button_text_change_city'), 0)
 

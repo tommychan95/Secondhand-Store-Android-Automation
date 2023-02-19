@@ -28,5 +28,5 @@ WebUI.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
 
-12345 = Mobile.getText(findTestObject('Page_Profile/button_text_change_phone'), 0)
+updated_phone = Mobile.getText(findTestObject('Page_Profile/button_text_change_phone'), 0)
 

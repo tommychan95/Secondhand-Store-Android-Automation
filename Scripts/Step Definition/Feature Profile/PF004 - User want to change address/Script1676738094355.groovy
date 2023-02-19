@@ -28,5 +28,5 @@ WebUI.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Tebet = Mobile.getText(findTestObject('Page_Profile/button_text_change_address'), 0)
+updated_address = Mobile.getText(findTestObject('Page_Profile/button_text_change_address'), 0)
 

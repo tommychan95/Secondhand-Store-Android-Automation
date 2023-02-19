@@ -12,7 +12,7 @@
       <variableId>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'12345'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>c1df1517-62fe-4bb6-a36d-aa8f1960b7ed</id>
       <masked>false</masked>

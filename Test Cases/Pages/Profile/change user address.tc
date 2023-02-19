@@ -12,7 +12,7 @@
       <variableId>76469bff-95d0-4d52-bd75-820dfc842660</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Tebet'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>76469bff-95d0-4d52-bd75-820dfc842660</id>
       <masked>false</masked>

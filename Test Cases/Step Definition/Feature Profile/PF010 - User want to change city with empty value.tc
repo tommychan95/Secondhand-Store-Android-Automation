@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PF001 - User want to change name</name>
+   <name>PF010 - User want to change city with empty value</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4e9ee8a5-c0ba-4253-ac94-5d0b20f89889</testCaseGuid>
+   <testCaseGuid>7977388e-a52c-4cd7-9346-a8d53cbffd82</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1b0ceaa7-dd4b-4bf5-88ee-78241fa9ee89</variableId>
+      <variableId>cbdd94d4-6df0-480b-be99-9dda7ded5e3e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Ahmad'</defaultValue>
+      <defaultValue>'Wajib diisi.'</defaultValue>
       <description></description>
-      <id>1b0ceaa7-dd4b-4bf5-88ee-78241fa9ee89</id>
+      <id>cbdd94d4-6df0-480b-be99-9dda7ded5e3e</id>
       <masked>false</masked>
-      <name>updated_name</name>
+      <name>error_message</name>
    </variable>
 </TestCaseEntity>

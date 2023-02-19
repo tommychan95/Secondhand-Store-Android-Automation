@@ -22,11 +22,9 @@ WebUI.callTestCase(findTestCase('Pages/Profile/login'), [('email') : 'binarqae1@
 
 WebUI.callTestCase(findTestCase('Pages/Profile/navigate to profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/change name'), [('name') : 'Ahmad'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Profile/change phone number'), [('phone') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
-
-updated_name = Mobile.getText(findTestObject('Page_Profile/button_text_change_name'), 0)
+error_message = Mobile.getText(findTestObject('Page_Profile/input_phone_number'), 0)
 

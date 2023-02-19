@@ -12,7 +12,7 @@
       <variableId>9854aa91-7e27-4a22-b72d-39c670f1461d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Jakarta'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>9854aa91-7e27-4a22-b72d-39c670f1461d</id>
       <masked>false</masked>

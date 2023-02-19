@@ -12,7 +12,7 @@
       <variableId>ab398473-4235-4c43-aa52-5b032b780ec2</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Ahmad'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>ab398473-4235-4c43-aa52-5b032b780ec2</id>
       <masked>false</masked>

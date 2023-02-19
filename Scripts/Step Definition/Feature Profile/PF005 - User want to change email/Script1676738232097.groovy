@@ -28,5 +28,5 @@ WebUI.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
 
-binarqae1@gmail.com = Mobile.getText(findTestObject('Page_Profile/button_text_change_email'), 0)
+updated_email = Mobile.getText(findTestObject('Page_Profile/button_text_change_email'), 0)
 

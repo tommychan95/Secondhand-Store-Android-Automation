@@ -22,11 +22,12 @@ WebUI.callTestCase(findTestCase('Pages/Profile/login'), [('email') : 'binarqae1@
 
 WebUI.callTestCase(findTestCase('Pages/Profile/navigate to profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/change name'), [('name') : 'Ahmad'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Profile/change password'), [('old_password') : 'students123', ('password') : 'students123'
+        , ('confirm_password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Page_Profile/snack_bar'), 0)
 
-updated_name = Mobile.getText(findTestObject('Page_Profile/button_text_change_name'), 0)
+error_message = Mobile.getText(findTestObject('Page_Profile/snack_bar'), 0)
 

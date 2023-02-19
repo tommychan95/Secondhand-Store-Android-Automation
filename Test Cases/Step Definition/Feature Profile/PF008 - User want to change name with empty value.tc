@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PF001 - User want to change name</name>
+   <name>PF008 - User want to change name with empty value</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4e9ee8a5-c0ba-4253-ac94-5d0b20f89889</testCaseGuid>
+   <testCaseGuid>c93c7a05-299d-42ed-b850-1a1facd65e87</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1b0ceaa7-dd4b-4bf5-88ee-78241fa9ee89</variableId>
+      <variableId>b859a27a-4160-4d43-9ffa-dcda3db41115</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Ahmad'</defaultValue>
+      <defaultValue>'Wajib diisi.'</defaultValue>
       <description></description>
-      <id>1b0ceaa7-dd4b-4bf5-88ee-78241fa9ee89</id>
+      <id>b859a27a-4160-4d43-9ffa-dcda3db41115</id>
       <masked>false</masked>
-      <name>updated_name</name>
+      <name>error_message</name>
    </variable>
 </TestCaseEntity>
