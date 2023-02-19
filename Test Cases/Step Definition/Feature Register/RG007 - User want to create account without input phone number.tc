@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RG007 - User want to create account without input phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af71bcd3-4dd3-4907-9d52-bae3a21e55dc</testCaseGuid>
+</TestCaseEntity>
