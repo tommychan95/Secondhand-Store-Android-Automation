@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input harga produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4d5c257-e8a9-40f4-b19f-fc84bfa38824</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e1bf7cd-3c7f-4dbc-8342-73259259d145</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e1bf7cd-3c7f-4dbc-8342-73259259d145</id>
+      <masked>false</masked>
+      <name>harga</name>
+   </variable>
+</TestCaseEntity>

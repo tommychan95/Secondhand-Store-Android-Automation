@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input nama produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f0d5fd4-2844-416f-bdda-ac21b085c09c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b6cc08a-86e5-4452-9439-5e2480cb5b8f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b6cc08a-86e5-4452-9439-5e2480cb5b8f</id>
+      <masked>false</masked>
+      <name>nama_produk</name>
+   </variable>
+</TestCaseEntity>

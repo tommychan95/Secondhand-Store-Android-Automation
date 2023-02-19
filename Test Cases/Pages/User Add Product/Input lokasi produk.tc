@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input lokasi produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>208e2583-2ce1-4e55-bd87-17eb35983678</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99d782aa-d502-47b8-87ca-9e0405270e6c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99d782aa-d502-47b8-87ca-9e0405270e6c</id>
+      <masked>false</masked>
+      <name>lokasi</name>
+   </variable>
+</TestCaseEntity>
