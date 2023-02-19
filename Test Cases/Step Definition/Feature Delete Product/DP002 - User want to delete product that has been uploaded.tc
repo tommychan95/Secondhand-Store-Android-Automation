@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DP002 - User want to delete product that has been uploaded</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e08b4f16-db83-4241-8805-4e23bb6c5dba</testCaseGuid>
+</TestCaseEntity>
