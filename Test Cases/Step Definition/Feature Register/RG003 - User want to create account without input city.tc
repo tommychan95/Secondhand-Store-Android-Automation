@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RG003 - User want to create account without input city</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a136138-e495-4965-b572-af06acd89fbc</testCaseGuid>
+</TestCaseEntity>
