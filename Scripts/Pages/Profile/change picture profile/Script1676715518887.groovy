@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Page_Profile/image_photo_profile'), 0)
+Mobile.tap(findTestObject('Page_Profile/profile_picture'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_camera'), 0)
 
 Mobile.tap(findTestObject('Page_Profile/button_camera'), 0)
 
 Mobile.tap(findTestObject('Page_Profile/button_capture_image'), 0)
 
-Mobile.tap(findTestObject('Page_Profile/button_ok_image'), 0)
+Mobile.tap(findTestObject('Page_Profile/button_capture_camera_ok'), 0)
 

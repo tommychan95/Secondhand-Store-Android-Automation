@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Page_Profile/button_change_email'), 0)
-
-Mobile.checkElement(findTestObject('Page_Profile/input_edit_email'), 0)
+Mobile.tap(findTestObject('Page_Profile/button_text_change_email'), 0)
 
 Mobile.clearText(findTestObject('Page_Profile/input_edit_email'), 0)
 

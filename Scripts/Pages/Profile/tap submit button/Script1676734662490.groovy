@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_save'), 0)
+
 Mobile.tap(findTestObject('Page_Profile/button_save'), 0)
 

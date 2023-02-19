@@ -27,5 +27,5 @@ Mobile.callTestCase(findTestCase('Pages/User Login/Input password'), [('password
 
 Mobile.callTestCase(findTestCase('Pages/User Login/Tap button login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Page_User Login/account_user_name'), 0)
+Mobile.checkElement(findTestObject('Page_Profile/image_edit'), 0)
 

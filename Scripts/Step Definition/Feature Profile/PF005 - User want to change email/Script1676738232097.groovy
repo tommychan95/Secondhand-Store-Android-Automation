@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Profile/login'), [('email') : 'binarqae1@gmail.com', ('password') : 'students1234'], 
+WebUI.callTestCase(findTestCase('Pages/Profile/login'), [('email') : 'binarqae1@gmail.com', ('password') : 'students123'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Profile/navigate to profile'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -27,4 +27,6 @@ WebUI.callTestCase(findTestCase('Pages/Profile/change email'), [('email') : 'bin
 WebUI.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
+
+binarqae1@gmail.com = Mobile.getText(findTestObject('Page_Profile/button_text_change_email'), 0)
 

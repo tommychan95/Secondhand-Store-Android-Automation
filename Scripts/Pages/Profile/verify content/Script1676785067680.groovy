@@ -17,12 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Profile/login'), [('email') : 'binarqae1@gmail.com', ('password') : 'students123'], 
-    FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_name'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/navigate to profile'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_phone'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/change picture profile'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_city'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_address'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_email'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_text_change_password'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Page_Profile/button_change_profile_picture'), 0)
 

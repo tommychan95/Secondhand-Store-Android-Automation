@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Page_Profile/button_change_address'), 0)
+Mobile.tap(findTestObject('Page_Profile/button_text_change_address'), 0)
 
 Mobile.checkElement(findTestObject('Page_Profile/input_edit_address'), 0)
 
 Mobile.clearText(findTestObject('Page_Profile/input_edit_address'), 0)
 
 Mobile.setText(findTestObject('Page_Profile/input_edit_address'), address, 0)
+
+Mobile.pressBack()
 

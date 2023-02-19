@@ -25,7 +25,7 @@
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'students1234'</defaultValue>
+      <defaultValue>'students123'</defaultValue>
       <description></description>
       <id>393251b9-635e-4ebf-88e4-289579f42bef</id>
       <masked>false</masked>
