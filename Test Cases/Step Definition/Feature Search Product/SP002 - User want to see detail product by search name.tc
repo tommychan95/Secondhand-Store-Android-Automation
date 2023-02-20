@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP002 - User want to see detail product by search name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>269fd2b0-f2b0-406c-9b66-105e7692cee3</testCaseGuid>
+</TestCaseEntity>
