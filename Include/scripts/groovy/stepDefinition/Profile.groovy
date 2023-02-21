@@ -62,12 +62,12 @@ class Profile {
 	public void user_input_name(String name) {
 		Mobile.callTestCase(findTestCase('Pages/Profile/change name'), [('name') : name], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("User tap change phone and input {string}")
 	public void user_input_phone(String phone) {
 		Mobile.callTestCase(findTestCase('Pages/Profile/change phone number'), [('phone') : phone], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("User tap change city and input {string}")
 	public void user_input_city(String city) {
 		Mobile.callTestCase(findTestCase('Pages/Profile/change city'), [('city') : city], FailureHandling.STOP_ON_FAILURE)
@@ -77,20 +77,25 @@ class Profile {
 	public void user_input_address(String address) {
 		Mobile.callTestCase(findTestCase('Pages/Profile/change user address'), [('address') : address], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("User tap change email address and input {string}")
 	public void user_input_email(String value) {
 		Mobile.callTestCase(findTestCase('Pages/Profile/change email'), [('email') : value], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("User tap change password and input {string} as current password, {string} as new password and {string} as confirmation password")
 	public void user_input_password(String old_password, String new_password, String confirm_password) {
 		Mobile.callTestCase(findTestCase('Pages/Profile/change password'), [('old_password') : old_password, ('password') : new_password, ('confirm_password') : confirm_password], FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("User change profile picture")
+	public void user_input_profile_picture() {
+		Mobile.callTestCase(findTestCase('Pages/Profile/change picture profile'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@And("User tap submit button")
 	public void user_tap_button_Login() {
-		Mobile.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], FailureHandling.STOP_ON_FAILURE)	
+		Mobile.callTestCase(findTestCase('Pages/Profile/tap submit button'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User show success alert and data {string} has been updated")
@@ -98,7 +103,7 @@ class Profile {
 		Mobile.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
 		Mobile.verifyMatch(string, string, false)
 	}
-	
+
 	@Then("User show success alert")
 	public void user_show_success_alert() {
 		Mobile.callTestCase(findTestCase('Pages/Profile/verify success alert'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -107,5 +112,11 @@ class Profile {
 	@Then("Warning text {string} will be shown")
 	public void text_warning_akan_muncul(String string) {
 		Mobile.verifyMatch(string, string, false)
+	}
+	
+	@Then("Warning text {string} will be shown and close popup")
+	public void text_warning_akan_muncul2(String string) {
+		Mobile.verifyMatch(string, string, false)
+		Mobile.tapAtPosition(360, 321)
 	}
 }

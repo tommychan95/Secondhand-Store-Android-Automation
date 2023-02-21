@@ -56,4 +56,45 @@ Feature: Profile
     Given User in profile page
     When User tap change name and input ""
     And User tap submit button
-    Then Warning text "Wajib diisi." will be shown
+    Then Warning text "Wajib diisi." will be shown and close popup
+    
+  @PF009
+  Scenario: User want change profile picture
+    Given User in profile page
+    When User change profile picture
+    Then User show success alert
+    
+  @PF010
+  Scenario: User want change name with empty value
+    Given User in profile page
+    When User tap change name and input ""
+    And User tap submit button
+    Then Warning text "Wajib diisi." will be shown and close popup
+    
+  @PF011
+  Scenario: User want change phone number with empty value
+    Given User in profile page
+    When User tap change phone and input ""
+    And User tap submit button
+    Then Warning text "Wajib diisi." will be shown and close popup
+    
+  @PF012
+  Scenario: User want change city with empty value
+    Given User in profile page
+    When User tap change city and input ""
+    And User tap submit button
+    Then Warning text "Wajib diisi." will be shown and close popup
+    
+  @PF013
+  Scenario: User want change address with empty value
+    Given User in profile page
+    When User tap change address and input ""
+    And User tap submit button
+    Then Warning text "Wajib diisi." will be shown and close popup
+    
+  @PF014
+  Scenario: User want change email with empty value
+    Given User in profile page
+    When User tap change email address and input ""
+    And User tap submit button
+    Then Warning text "Wajib diisi." will be shown and close popup
